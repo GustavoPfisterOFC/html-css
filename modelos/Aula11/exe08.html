@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detran</title>
+    <style>
+        body{
+            background-color: darkcyan;
+            color: black;
+            font: normal 15pt arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sistema de Km/h</h1>
+   Sua velocidade é de : <input type="number" name="kmh" id="kmh">Km/h 
+    <input type="button" value="Checar" onclick="checar()">
+    <div id="res"></div>
+    <script>
+        function checar(){
+            var txt = document.querySelector('input#kmh')
+            var res = document.querySelector('div#res')
+            var km = Number(txt.value)
+            res.innerHTML = `<br>Sua velocidade é de (${km} km/h)`
+            if(km > 60){
+                res.innerHTML += `<p>Você exedeu a velocidade e foi multado</p>`
+                res.innerHTML += 'Dirija com cuidado'
+            }else{
+                res.innerHTML += `<p>Tudo certo Pode prosseguir sua viagem</p>`
+                res.innerHTML += 'Dirija com cuidado, até logo'
+            }
+            
+            
+        }
+    </script>
+</body>
+</html>

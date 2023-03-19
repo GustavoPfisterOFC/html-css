@@ -1,0 +1,19 @@
+var a = window.document.querySelector('div#area')
+        a.addEventListener('click', clicar)
+        a.addEventListener('mouseenter',entrar)
+        a.addEventListener('mouseout',saiu)
+        function clicar(){
+            a.innerText = 'Clicou'
+            a.style.background = 'red'
+            a.style.color ='black'
+        }
+        function entrar(){
+        a.innerText = 'Entrou'
+        a.style.background = 'green'
+        a.style.color = 'black'
+        }
+        function saiu(){
+        a.innerText = 'Saiu'
+        a.style.background = 'black'
+        a.style.color = 'red'
+        }

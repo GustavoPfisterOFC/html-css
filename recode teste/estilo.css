@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(37, 84, 212);
+}
+
+header#cabeçalho{
+    background-color: blue;
+    font: normal 20pt italic;
+    border-radius: 30px;
+    box-shadow:10px 5px 3px rgba(28, 28, 150, 0.226) ;
+}
+#cabeça{
+    color: aqua;
+    text-shadow: 3px 3px 3px black;
+    text-align: center;
+    padding: 10px;
+}
+#prox{
+   
+   
+}

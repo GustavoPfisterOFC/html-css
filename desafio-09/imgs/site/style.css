@@ -1,0 +1,19 @@
+body{
+    background-image: linear-gradient(to right , #AD4B42,#FF9D94);
+    color: #78FAB2;
+    text-align: center;
+}
+a{
+    color: white;
+    text-decoration-line: none;
+    font: normal 15pt arial;
+    text-shadow: 3px 2px 3px #78FAB2;
+}
+header{
+    background-image: linear-gradient(to right, #31AD68, #78FAB2);
+    color: white;
+    text-shadow: 3px 3px 3px #FF9D94;
+    padding: 20px;
+    border-radius: 50px;
+}
+
